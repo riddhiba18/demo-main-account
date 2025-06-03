@@ -48,7 +48,7 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<provider>MC</provider>
 						<environment>ThreeIrelandLightning</environment>
-						<target>TEST</target>
+						<target>Cloudhub-EU-West-1</target>
 						<muleVersion>4.9.5</muleVersion>
 						<server>connectedapp</server>
 						<applicationName>cicd-demo</applicationName>
