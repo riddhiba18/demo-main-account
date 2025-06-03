@@ -46,7 +46,7 @@
 					<classifier>mule-application</classifier>
 					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<provider>MC</provider>
+						<provider>CH</provider>
 						<environment>ThreeIrelandLightning</environment>
 						<target>TEST</target>
 						<muleVersion>4.9.5</muleVersion>
