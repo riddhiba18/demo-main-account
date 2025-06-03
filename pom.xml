@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>4ae02668-aabc-4fc0-812b-c1447e8bf2d1</groupId>
-	<artifactId>cicd-demo</artifactId>
+	<artifactId>cicd-demo-main</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
-	<name>cicd-demo</name>
+	<name>cicd-demo-main</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,13 +45,13 @@
 				<configuration>
 					<classifier>mule-application</classifier>
 					<cloudhub2Deployment>
-						<uri>https://anypoint.mulesoft.com</uri>
+						<uri>https://eu1.anypoint.mulesoft.com</uri>
 						<provider>MC</provider>
 						<environment>ThreeIrelandLightning</environment>
 						<target>TEST</target>
 						<muleVersion>4.9.5</muleVersion>
 						<server>connectedapp</server>
-						<applicationName>cicd-demo</applicationName>
+						<applicationName>${project.artifactId}</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 						<businessGroup>3 Ireland MuleSoft Project Team</businessGroup>
@@ -69,7 +69,7 @@
 		<repository>
 			<id>connectedapp</id>
 			<name>Corporate Repository</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/${project.groupId}/maven</url>
+			<url>https://maven.eu1.anypoint.mulesoft.com/api/v3/organizations/${project.groupId}/maven</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
@@ -90,24 +90,19 @@
 	</dependencies>
 
 	<repositories>
-		<!-- <repository>
-			<id>anypoint-exchange-v3</id>
+		<repository>
+			<id>connectedapp</id>
 			<name>Anypoint Exchange</name>
 			<url>https://maven.eu1.anypoint.mulesoft.com/api/v3/maven</url>
 			<layout>default</layout>
-		</repository> -->
+		</repository>  
 		<repository>
 			<id>mulesoft-releases</id>
 			<name>MuleSoft Releases Repository</name>
 			<url>https://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
 		</repository>
-		<repository>
-			<id>connectedapp</id>
-			<name>Anypoint Exchange</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
-			<layout>default</layout>
-		</repository>
+
 	</repositories>
 
 	<pluginRepositories>

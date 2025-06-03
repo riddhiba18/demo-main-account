@@ -8,7 +8,7 @@ http://maven.apache.org/xsd/settings-1.0.0.xsd">
     <server>
       <id>connectedapp</id>
       <username>~~~Client~~~</username>
-      <password>20522be76558497b8a48014859178078~?~c0412C7DF80f4aC2ae753abfD8ce34ad</password>
+      <password>0d127fab2eee42ff89dac70946dca73b~?~1608A4b7F17A4bF59135033f18aC591F</password>
     </server>
   </servers>
 </settings>
