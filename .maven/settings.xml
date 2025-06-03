@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+    
+    <server>
+      <id>connectedapp</id>
+      <username>~~~Client~~~</username>
+      <password>20522be76558497b8a48014859178078~?~c0412C7DF80f4aC2ae753abfD8ce34ad</password>
+    </server>
+  </servers>
+</settings>
