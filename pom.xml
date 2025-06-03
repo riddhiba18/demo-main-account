@@ -48,7 +48,6 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<provider>MC</provider>
 						<environment>ThreeIrelandLightning</environment>
-						<region>eu-west-1</region>
 						<target>TEST</target>
 						<muleVersion>4.9.5</muleVersion>
 						<server>connectedapp</server>
